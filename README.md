@@ -1,19 +1,29 @@
-# React + Vite
+# Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web de un portafolio personal hecho para la evaluación número 2 de Fullstack II.
 
-Currently, two official plugins are available:
+# Como instalar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Asegurate de tener npm instalado**
 
-## React Compiler
+Debes clonar el repositorio mediante Git:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```git clone https://github.com/Ignaciomirmor3/EvaluacionParcial-2-Portafolio-Personal/```
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Después, entra a la carpeta del proyecto:
+```cd EvaluacionParcial-2-Portafolio-Personal```
 
-## Expanding the ESLint configuration
+Instala las dependencias necesarias:
+```npm install```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Y por último, ejecuta el proyecto:
+
+```npm run dev```
+
+# Ejecutar prueba
+
+Para ejecutar la prueba, simplemente corre el siguiente comando:
+
+```npm test```
+
+Debería correr la prueba de Contacto exitosamente.
