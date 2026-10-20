@@ -7,23 +7,32 @@ Sitio web de un portafolio personal hecho para la evaluación número 2 de Fulls
 **Asegurate de tener npm instalado**
 
 Debes clonar el repositorio mediante Git:
-
-```git clone https://github.com/Ignaciomirmor3/EvaluacionParcial-2-Portafolio-Personal/```
+```console
+git clone https://github.com/Ignaciomirmor3/EvaluacionParcial-2-Portafolio-Personal/
+```
 
 Después, entra a la carpeta del proyecto:
-```cd EvaluacionParcial-2-Portafolio-Personal```
+```console
+cd EvaluacionParcial-2-Portafolio-Personal
+```
 
 Instala las dependencias necesarias:
-```npm install```
+```console
+npm install
+```
 
 Y por último, ejecuta el proyecto:
 
-```npm run dev```
+```console
+npm run dev
+```
 
 # Ejecutar prueba
 
 Para ejecutar la prueba, simplemente corre el siguiente comando:
 
-```npm test```
+```console
+npm test
+```
 
 Debería correr la prueba de Contacto exitosamente.
